@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  rhtap/gitops: fullconfigsetup-sept16 
+  janus-idp.io/tekton: fullconfigsetup-sept16
+  backstage.io/kubernetes-id: fullconfigsetup-sept16
+  backstage.io/kubernetes-namespace: rhdh-app 
+  app.kubernetes.io/part-of: fullconfigsetup-sept16
+resources: 
+- application-dev.yaml

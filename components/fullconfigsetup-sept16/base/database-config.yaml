@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: fullconfigsetup-sept16-database-config
+data:
+  VECTORDB_HOST: "fullconfigsetup-sept16-database"
+  VECTORDB_PORT: ""
